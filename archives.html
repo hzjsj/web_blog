@@ -4,10 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>世界，您好！ &#8211; 王秀龙的博客</title>
-    <link rel="alternate" type="application/rss+xml" title="王秀龙的博客 &raquo; Feed" />
-    <link rel="alternate" type="application/rss+xml" title="王秀龙的博客 &raquo; 评论Feed" />
-    <link rel="alternate" type="application/rss+xml" title="王秀龙的博客 &raquo; 世界，您好！评论Feed" />
+    <title>王秀龙的博客</title>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -21,6 +18,9 @@
             background: none !important;
             padding: 0 !important;
         }
+        code{
+            background-color: white !important;
+        }
     </style>
     <link rel='stylesheet' id='wp-block-library-css' href='/assets/style.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='font-awesome-css' href='/assets/css/font-awesome.css' type='text/css' media='all' />
@@ -32,9 +32,10 @@
     <script type="text/javascript" src="/js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="/js/axios.min.js"></script>
     <script type="text/javascript" src="/js/markdown-it.min.js"></script>
-    <!--[if lt IE 9]>
-        <script type='text/javascript' src='https://www.kdsa.cn/assets/js/html5.js'></script>
-    <![endif]-->
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+
     <link rel='https://api.w.org/' href='/wp-json/' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
@@ -156,7 +157,7 @@
                 <ul id="footer-nav" class="footer-nav">
                     <li id="menu-item-154"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-154"><a
-                            href="http://beian.miit.gov.cn/"><span>皖ICP备19005551号-3</span></a></li>
+                            href="http://beian.miit.gov.cn/" target="_bank"><span>皖ICP备19005551号-3</span></a></li>
                 </ul>
                 <p id="site-generator" class="site-info centertext footer-copy">
                     <a href="/" rel="home">&copy;
